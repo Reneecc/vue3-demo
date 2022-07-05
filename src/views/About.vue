@@ -1,3 +1,3 @@
 <template>
-    <h5>aboutpage</h5>
+    aboutpage
 </template>
