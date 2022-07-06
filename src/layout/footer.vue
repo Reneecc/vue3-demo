@@ -27,7 +27,7 @@ const props = defineProps({
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: white;
+    // background: white;
     z-index: 9999;
 
     .footer-menu-item {
