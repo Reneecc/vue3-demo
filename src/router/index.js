@@ -2,6 +2,7 @@ import { createWebHistory, createRouter } from "vue-router";
 import Home from "@/views/Home.vue";
 import About from "@/views/About.vue";
 import NotFound from "@/views/NotFound.vue";
+import Register from "@/views/Register.vue";
 
 /**
  * 用数组来写Router指向的每一个分页面
@@ -19,6 +20,11 @@ const routes = [
         path: "/about",
         name: "About",
         component: About,
+    },
+    {
+        path: "/register",
+        name: "Register",
+        component: Register,
     },
     // (.*) 是一个正则表达式，如果用户输入的 URL 没有跟任何 Router 中的 path 匹配，那么就会与(.*) 匹配，Router 就会把用户带到 404 页
     {

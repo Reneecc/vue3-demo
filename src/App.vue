@@ -21,6 +21,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background-color: rgba(160, 227, 205, 0.171);
 }
 
 #app {
@@ -38,5 +39,6 @@ body {
   /* margin-bottom: 60px;
   min-height: calc(100vh - 120px); */
   min-height: 100vh;
+  background-color: white;
 }
 </style>

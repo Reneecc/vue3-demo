@@ -5,7 +5,7 @@
         </div>
         <div @click="goHome">啦啦啦啦啦</div>
         <div>
-            <PriButton btnVal="藏品室" @click="goAbout" />
+            <PriButton btnVal="实名注册" @click="goRegister" />
         </div>
     </div>
 </template>
@@ -23,8 +23,8 @@ const goHome = () => {
     router.push('/')
 }
 
-const goAbout = () => {
-    router.push('/about')
+const goRegister = () => {
+    router.push('/register')
 }
 </script>
 
